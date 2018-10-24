@@ -672,35 +672,7 @@ foat l at {
 		
 }
 
-.slider {
-	width:900px;
-	height: 190px;
-	margin: 0.0px;
-    margin-left: 210px;
-    margin-right: 210px;
-    margin-bottom: 1.1px;
-	background: url(images/images%20.jpg);
-	animation: slide 40s infinite;
-	float: none
-}
-@keyframes slide {
-	
-	
-    
-	70%{
-		background:  url(images/banner.jpg) ;
-		
-	}
-    100%{
-        background:  url(images/bg.jpg) {
-	}
-     120%{
-		background:  url(images/images%20.jpg) ;
-		
-	}
-	
-	
-}
+
 
 
 .navtheslider {
