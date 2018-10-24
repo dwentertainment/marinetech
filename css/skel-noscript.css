@@ -47,7 +47,7 @@ s/* Resets (http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | Licens
 		.\38 u { width: 66.6666666667% }
 		.\37 u { width: 58.3333333333% }
 		float: right;
-	background-color: darkblue;
+	background:url(images/back-g.jpg);
      margin-left: -50px;
 	top: 22px;
 	 width: 50% 
