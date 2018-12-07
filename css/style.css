@@ -43,6 +43,13 @@ h7{
 	line-height: 20px;
     color: white;
 }
+h8{
+    font-family: 'Montserrat', sans-serif;
+	margin: 0 0 20px 0;
+	font-weight: 700;
+	font-size: 32px;
+	color: #000;
+}
 
 p {
 	font-size: 15px;
@@ -138,6 +145,7 @@ hr {
 .section-title {
 	margin-bottom: 0.px;
     color: aliceblue;
+    color: black;
 }
 
 .section-title h2 {
