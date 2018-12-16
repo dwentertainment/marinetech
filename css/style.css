@@ -195,7 +195,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: url(../img/intro-bg.jpg)
+        ;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
