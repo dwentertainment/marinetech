@@ -730,10 +730,16 @@ font-size: 30px;
      40%{
      background: url(nivo-lightbox/testimonials/02.jpg);   
     }
-     60%{
+    60%{
+     background: url(nivo-lightbox/testimonials/06.jpg);   
+    }
+    80%{
+     background: url(nivo-lightbox/testimonials/05.jpg);   
+    }
+     100%{
      background: url(nivo-lightbox/testimonials/03.jpg);   
     }
-     80%{
+     140%{
      background: url(nivo-lightbox/testimonials/04.jpg);   
     }
 }
