@@ -332,6 +332,7 @@ header .intro-text {
 #portfolio {
 	padding: 10px;
 	background-image: url(nivo-lightbox/back-g.jpg);
+    background-size: cover;
 }
 .portfolio-item {
 	margin: 15px 0;
@@ -725,22 +726,28 @@ font-size: 30px;
 }
 @keyframes slide {
     20%{
-     background: url(nivo-lightbox/testimonials/01.jpg);   
+     background: url(nivo-lightbox/testimonials/IMG_1061.JPG);   
     }
-     40%{
-     background: url(nivo-lightbox/testimonials/02.jpg);   
-    }
-    60%{
-     background: url(nivo-lightbox/testimonials/06.jpg);   
-    }
-    80%{
+      40%{
      background: url(nivo-lightbox/testimonials/05.jpg);   
     }
-     100%{
+     60%{
      background: url(nivo-lightbox/testimonials/03.jpg);   
     }
-     140%{
+     80%{
      background: url(nivo-lightbox/testimonials/04.jpg);   
+    } 
+    100%{
+     background: url(nivo-lightbox/testimonials/IMG_0923.JPG);   
+    }
+    140%{
+     background: url(nivo-lightbox/testimonials/IMG_1000.JPG);   
+    }
+    150%{
+     background: url(nivo-lightbox/testimonials/IMG_1065.JPG);   
+    }
+    180%{
+     background: url(nivo-lightbox/testimonials/01.jpg);   
     }
 }
 
