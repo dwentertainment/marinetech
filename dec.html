@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- Site Metas -->
-    <title>IMT NIGERIA</title>
+    <title>MARINETEC</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -52,7 +52,7 @@
     <header class="top-header">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image" width="40%" height="40%"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>
@@ -83,7 +83,7 @@
 	      <div class="row">
 		      <div class="col-12">
 			     <div class="full">
-				     <h3>Contact us</h3>
+				     <h3>DEPARTMENT OF ENTREPRENEURSHIP/CREATIVE ARTS (DEC)</h3>
 				 </div>
 			  </div>
 		  </div>
@@ -93,125 +93,48 @@
 	<!-- end section -->
    
 	<!-- section -->
-    <!-- php -->
-    <?php
-
-$errorMSG = "";
-
-// NAME
-if (empty($_POST["name"])) {
-    $errorMSG = "Name is required ";
-} else {
-    $name = $_POST["name"];
-}
-
-// EMAIL
-if (empty($_POST["email"])) {
-    $errorMSG .= "Email is required ";
-} else {
-    $email = $_POST["email"];
-}
-
-// MSG Guest
-if (empty($_POST["guest"])) {
-    $errorMSG .= "Subject is required ";
-} else {
-    $guest = $_POST["guest"];
-}
-
-
-// MSG Event
-if (empty($_POST["event"])) {
-    $errorMSG .= "Subject is required ";
-} else {
-    $event = $_POST["event"];
-}
-
-
-// MESSAGE
-if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
-} else {
-    $message = $_POST["message"];
-}
-
-
-$EmailTo = "wisdomdominick3@gmail.com";
-$Subject = "New Message Received";
-
-// prepare email body text
-$Body = "";
-$Body .= "Name: ";
-$Body .= $name;
-$Body .= "\n";
-$Body .= "Email: ";
-$Body .= $email;
-$Body .= "\n";
-$Body .= "guest: ";
-$Body .= $guest;
-$Body .= "\n";
-$Body .= "event: ";
-$Body .= $event;
-$Body .= "\n";
-$Body .= "Message: ";
-$Body .= $message;
-$Body .= "\n";
-
-// send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$email);
-
-// redirect to success page
-if ($success && $errorMSG == ""){
-   echo "success";
-}else{
-    if($errorMSG == ""){
-        echo "Something went wrong :(";
-    } else {
-        echo $errorMSG;
-    }
-}
-
-?>
-    <!-- end php -->
-    <div class="section layout_padding contact_section" style="background:#f6f6f6;">
+    <div class="section margin-top_50">
         <div class="container">
-               <div class="row">
-                 <div class="col-lg-8 col-md-8 col-sm-12">
-				    <div class="full float-right_img">
-                        <img src="images/img6.png" alt="#">
+            <div class="row">
+                <div class="col-md-6 layout_padding_2"><center>
+                    <div class="full">
+                        <div class="heading_main text_align_left">
+						   <h2><span>INSTITUTE OF MARINE AND TECHNOLOGY </span> </h2>
+                        </div>
+						<div class="full">
+                            <h2>AN AFFILIATE OF ESM BENIN UNIVERSITY, BENIN REPUBLIC</h2> 
+                            
+                            <img src="images/news2.JPG" width="100%" >
+                            
+                            <h2>A SIX(6) WEEKS<span>
+                                Tuition free tralning in marine entrepreneurship/creative arts.</span></h2>
+
+
+                             
+                            <br>
+                           
+                               <h2>COURSES</h2>
+                      <p>Welding Tech, System Troubleshooting/Software maintenance, Photography,
+                          Videography, Word Processing, Creative Arts</p>
+						</div>
+					
                     </div>
-                 </div>
-				 <div class="col-lg-4 col-md-4 col-sm-12">
-				    <div class="contact_form">
-					    <form method="post" action="contact.html">
-						   <fieldset>
-						       <div class="full field">
-							      <input type="text" placeholder="Your Name" name="your name" />
-							   </div>
-							   <div class="full field">
-							      <input type="email" placeholder="Email Address" name="Email" />
-							   </div>
-							   <div class="full field">
-							      <input type="phn" placeholder="Phone Number" name="Phone number" />
-							   </div>
-							   <div class="full field">
-							      <textarea placeholder="Massage"></textarea>
-							   </div>
-							   <div class="full field">
-							      <div class="center"><button>Send</button></div>
-							   </div>
-						   </fieldset>
-						</form>
-					</div>
-                 </div>
-               </div>  <div class="full">
-						   <a class="hvr-radial-out button-theme" href="dec.html">DEC TRAINING</a>
-						</div>			  
-           </div>
+                      </center>
+                </div>
+                
+				<div class="col-md-6">
+                    <div class="full"><br>
+                    <center>
+                               <iframe src="https://form.jotform.com/202506137756556" width="600" height="800" frameborder="0" marginheight="0" marginwidth="0">loading</iframe>
+                        <p>infomarine23@gmail.com OR call 07062575452, 08056851730</p>
+                                </center>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 	<!-- end section -->
-    <!-- Start Footer -->
-     <!-- Start Footer -->
+  <!-- Start Footer -->
     <footer class="footer-box">
         <div class="container">
 		
@@ -233,7 +156,6 @@ if ($success && $errorMSG == ""){
 						    <h3>Quick links</h3>
 						    <ul> 
 							  <li><a href="#">> ADMISSION FROM</a></li>
-							  <li><a href="#">> DEC TRAINING</a></li>
 							  <li><a href="#">> VERIFICATION</a></li>
 							</ul>
 						 </div>
@@ -269,13 +191,12 @@ if ($success && $errorMSG == ""){
         </div>
     </footer>
     <!-- End Footer -->
-  <!-- End Footer -->
 
     <div class="footer_bottom">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="crp">© Copyrights 2019 design by html.design</p>
+                    <p class="crp">© Copyrights 2020 design by html.design | Dream-Wave</p>
                 </div>
             </div>
         </div>
